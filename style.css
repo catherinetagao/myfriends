@@ -1,0 +1,48 @@
+body {
+  width: 85%;
+  margin: auto;
+  background-image: url("https://i.pinimg.com/1200x/98/88/fa/9888fa08e94d226a1f11cb1f174a6a98.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+h1 {
+  text-align: left;
+}
+
+img {
+  border: 3px solid #000000;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 10px; /* Rounded corners */
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0 0 10px #fff;
+  transform: scale(1.05);
+}
+
+#top-8-wrapper {
+  padding: 20px 0;
+}
+
+.top-8-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.friend-card {
+  display: inline-block;
+  text-align: center;
+}
+
+.friend-name {
+  color: #000000;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
